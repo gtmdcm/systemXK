@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: systemXK
+spec:
+  containers:
+    - name: systemXK
+      image: busybox
+      args:
+        - sleep
+        - "1000000"
